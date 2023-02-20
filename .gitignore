@@ -1,2 +1,4 @@
 # Project exclude paths
 /hermes-web/target/
+/.idea/
+**/target

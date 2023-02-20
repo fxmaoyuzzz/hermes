@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hermes-service-client" />
+        <module name="hermes-stream" />
+        <module name="hermes-corn" />
+        <module name="hermes-service" />
+        <module name="hermes-web" />
+        <module name="hermes-handler" />
+        <module name="hermes-common" />
+        <module name="hermes-support" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hermes-common" options="" />
+      <module name="hermes-corn" options="-parameters" />
+      <module name="hermes-handler" options="-parameters" />
+      <module name="hermes-service" options="" />
+      <module name="hermes-service-client" options="-parameters" />
+      <module name="hermes-stream" options="" />
+      <module name="hermes-support" options="" />
+      <module name="hermes-web" options="-parameters" />
+    </option>
+  </component>
+</project>
